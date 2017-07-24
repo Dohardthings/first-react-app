@@ -15,7 +15,7 @@ const Courses = ({match}) => (
       </ul>
     </div>
 
-    {/* Write routes here... */}
+    {/* routes go here */}
     <Route exact path={match.path}
                  render={ () => <Redirect to={`${match.path}/html`} /> } />
 
