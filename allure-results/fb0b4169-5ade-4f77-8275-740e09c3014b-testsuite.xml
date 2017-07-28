@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1501192665224' stop='1501192673480'>
+    <name>Are elements visible Navigation</name>
+    <title>Are elements visible Navigation</title>
+    <test-cases>
+        <test-case start='1501192665224' status='passed' stop='1501192673474'>
+            <name>should go to adwords page when you click on advertisements</name>
+            <title>should go to adwords page when you click on advertisements</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/danielmcbryde/first-react-app/testing/test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1501192665224' status='passed' stop='1501192666071'>
+                    <name>POST /wd/hub/session/cab66fdc0060351605c7c31ee5d5ae6f/url</name>
+                    <title>POST /wd/hub/session/cab66fdc0060351605c7c31ee5d5ae6f/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6c457365-4f58-4f7f-bd88-89f5bcff1d9f-attachment.json' type='application/json' size='35'/>
+                        <attachment title='Response' source='2c2b82f3-76ff-4f6d-a6ea-3b0ed64e996c-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501192666101' status='passed' stop='1501192666118'>
+                    <name>POST /wd/hub/session/cab66fdc0060351605c7c31ee5d5ae6f/elements</name>
+                    <title>POST /wd/hub/session/cab66fdc0060351605c7c31ee5d5ae6f/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='fb958dbb-2ac5-45d9-b8f1-1dbfee785f2c-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='631ff1bc-3f51-4b32-ae63-c3c3d248fcea-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501192666126' status='passed' stop='1501192666273'>
+                    <name>GET /wd/hub/session/cab66fdc0060351605c7c31ee5d5ae6f/element/0.2926811649080725-1/displayed</name>
+                    <title>GET /wd/hub/session/cab66fdc0060351605c7c31ee5d5ae6f/element/0.2926811649080725-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='d7013fe1-3ec3-428e-8af8-4044a4d68880-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501192666288' status='passed' stop='1501192666602'>
+                    <name>POST /wd/hub/session/cab66fdc0060351605c7c31ee5d5ae6f/element</name>
+                    <title>POST /wd/hub/session/cab66fdc0060351605c7c31ee5d5ae6f/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7c3dfa98-ea8f-4edc-89c2-896c6e07137d-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='6904cffa-2563-4b2a-b79e-7cc43acbf61a-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501192666616' status='passed' stop='1501192673374'>
+                    <name>POST /wd/hub/session/cab66fdc0060351605c7c31ee5d5ae6f/element/0.2926811649080725-1/click</name>
+                    <title>POST /wd/hub/session/cab66fdc0060351605c7c31ee5d5ae6f/element/0.2926811649080725-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='25e6b2e9-c6b2-426b-ad8e-ddcf4565ad42-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501192673379' status='passed' stop='1501192673426'>
+                    <name>POST /wd/hub/session/cab66fdc0060351605c7c31ee5d5ae6f/elements</name>
+                    <title>POST /wd/hub/session/cab66fdc0060351605c7c31ee5d5ae6f/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='4887252c-b31c-4f7a-8f40-1c4fbd992477-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='e72ca1f5-881a-4158-9b7e-a78a5d31fe21-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501192673441' status='passed' stop='1501192673470'>
+                    <name>GET /wd/hub/session/cab66fdc0060351605c7c31ee5d5ae6f/element/0.19871321219884952-1/displayed</name>
+                    <title>GET /wd/hub/session/cab66fdc0060351605c7c31ee5d5ae6f/element/0.19871321219884952-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='6139b701-d98c-4880-86e5-2543a4bd9004-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

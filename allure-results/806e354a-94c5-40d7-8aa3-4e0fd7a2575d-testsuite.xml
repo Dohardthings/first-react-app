@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1501194685709' stop='1501194692525'>
+    <name>Are elements visible Navigation</name>
+    <title>Are elements visible Navigation</title>
+    <test-cases>
+        <test-case start='1501194685709' status='broken' stop='1501194692524'>
+            <name>should go to adwords page when you click on advertisements</name>
+            <title>should go to adwords page when you click on advertisements</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/danielmcbryde/first-react-app/testing/test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1501194685709' status='passed' stop='1501194685960'>
+                    <name>POST /wd/hub/session/795574ad0726ba312a1ffd7d69b9daa7/url</name>
+                    <title>POST /wd/hub/session/795574ad0726ba312a1ffd7d69b9daa7/url</title>
+                    <attachments>
+                        <attachment title='Request' source='dccfcca6-75c2-4f95-b569-16724351433c-attachment.json' type='application/json' size='35'/>
+                        <attachment title='Response' source='7ac35151-3fbc-406a-91da-7fecd54e68be-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501194685967' status='passed' stop='1501194686203'>
+                    <name>POST /wd/hub/session/795574ad0726ba312a1ffd7d69b9daa7/elements</name>
+                    <title>POST /wd/hub/session/795574ad0726ba312a1ffd7d69b9daa7/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b0494c91-c349-47bf-aa57-e895d6a61c27-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='c42f60fa-c2a4-4f25-a70a-489a484cbe64-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501194686206' status='passed' stop='1501194686388'>
+                    <name>GET /wd/hub/session/795574ad0726ba312a1ffd7d69b9daa7/element/0.32848451181826466-1/displayed</name>
+                    <title>GET /wd/hub/session/795574ad0726ba312a1ffd7d69b9daa7/element/0.32848451181826466-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='be46eb87-1933-4ae7-a486-82165cb26638-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501194686388' status='passed' stop='1501194686467'>
+                    <name>POST /wd/hub/session/795574ad0726ba312a1ffd7d69b9daa7/element</name>
+                    <title>POST /wd/hub/session/795574ad0726ba312a1ffd7d69b9daa7/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a4474331-b50b-4eca-a410-e74711289a78-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='05d98b9f-9255-466b-902e-864e026a3ab6-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501194686469' status='passed' stop='1501194692356'>
+                    <name>POST /wd/hub/session/795574ad0726ba312a1ffd7d69b9daa7/element/0.32848451181826466-1/click</name>
+                    <title>POST /wd/hub/session/795574ad0726ba312a1ffd7d69b9daa7/element/0.32848451181826466-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='504a83b0-791b-4a57-9165-869d0a1cb2ed-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501194692368' status='passed' stop='1501194692464'>
+                    <name>POST /wd/hub/session/795574ad0726ba312a1ffd7d69b9daa7/elements</name>
+                    <title>POST /wd/hub/session/795574ad0726ba312a1ffd7d69b9daa7/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7cd4a214-d3f0-459b-8295-028ef284a6cd-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='12e61837-3e11-43da-b046-711043a20cbe-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501194692471' status='passed' stop='1501194692521'>
+                    <name>GET /wd/hub/session/795574ad0726ba312a1ffd7d69b9daa7/element/0.6664837515850017-1/displayed</name>
+                    <title>GET /wd/hub/session/795574ad0726ba312a1ffd7d69b9daa7/element/0.6664837515850017-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='83c4cc7b-0a84-41d9-a065-b94d2cf7a6ee-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>window is not defined</message>
+                <stack-trace>ReferenceError: window is not defined
+                    at Context.&lt;anonymous> (/Users/danielmcbryde/first-react-app/testing/test.js:20:16)
+                    at Promise (&lt;anonymous>)
+                    at F (/Users/danielmcbryde/first-react-app/node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js:35:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

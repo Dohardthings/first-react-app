@@ -3,7 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "1.0.6"
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "react-scripts": "1.0.6",
+    "selenium-standalone": "^6.5.0",
+    "wdio-allure-reporter": "^0.1.2",
+    "wdio-concise-reporter": "^0.1.2",
+    "wdio-cucumber-framework": "^0.3.1",
+    "wdio-dot-reporter": "0.0.8",
+    "wdio-json-reporter": "^0.2.1",
+    "wdio-junit-reporter": "^0.3.0",
+    "wdio-mocha-framework": "^0.5.10",
+    "wdio-spec-reporter": "^0.1.0",
+    "wdio-teamcity-reporter": "^1.1.1",
+    "webdriverio": "^4.8.0"
   },
   "dependencies": {
     "react": "^15.5.4",
@@ -14,6 +27,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "selenium-install": "node_modules/.bin/selenium-standalone install",
+    "selenium": "node_modules/.bin/selenium-standalone start",
+    "chromedriver": "node_modules/selenium-standalone/.selenium/chromedriver/2.30-x64-chromedriver --url-base=/wd/hub --port=4444",
+    "chrome": "wdio repl chrome",
+    "tester": "./node_modules/.bin/wdio wdio.conf.js"
   }
 }
