@@ -13,10 +13,21 @@ describe('Are elements visible', function() {
         browser.click('#root > div > header > ul > li:nth-child(3) > a');
         expect(browser.getUrl('http://localhost:3000/teachers'));
         browser.click('#root > div > header > ul > li:nth-child(4) > a');
-        expect(browser.getUrl('http://localhost:3000/courses'));
+        expect(browser.getUrl('http://localhost:3000/courses/html'));
 
 });
 });
 
+describe('Navigation', function() {
+    it('begining on the courses html page, should link to other sub-pages of courses', function() {
+      browser.click('#root > div > div > div.course-header.group > ul > li:nth-child(2) > a');
+      expect(browser.getUrl('http://localhost:3000/courses/css'));
+      browser.click('#root > div > header > ul > li:nth-child(4) > a');
+      expect(browser.getUrl('http://localhost:3000/courses/javascript'));
+      browser.click('#root > div > div > div.course-header.group > ul > li:nth-child(1) > a');
+      expect(browser.getUrl('http://localhost:3000/courses/html'));
+
+});
+});
 
   });
