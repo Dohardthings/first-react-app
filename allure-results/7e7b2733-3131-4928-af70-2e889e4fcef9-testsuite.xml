@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1501524520658' stop='1501524522299'>
+    <name>Are elements visible Visibility</name>
+    <title>Are elements visible Visibility</title>
+    <test-cases>
+        <test-case start='1501524520659' status='passed' stop='1501524522286'>
+            <name>should show that all elements are visible with true</name>
+            <title>should show that all elements are visible with true</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/danielmcbryde/first-react-app/testing/secondTest.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1501524520669' status='passed' stop='1501524521737'>
+                    <name>POST /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/url</name>
+                    <title>POST /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3600421a-b132-47d6-8fb8-f9053a236d40-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='f76b99a8-b5dd-48df-bdac-00db63ba911e-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501524521747' status='passed' stop='1501524521875'>
+                    <name>POST /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/elements</name>
+                    <title>POST /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='187e2700-6274-4895-b47c-86049f92440c-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='05d1dcf6-8553-4f27-a6e1-0af8d759b006-attachment.json' type='application/json' size='245'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501524521876' status='passed' stop='1501524522068'>
+                    <name>GET /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/element/0/displayed</name>
+                    <title>GET /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/element/0/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='51ec16f4-0246-4fce-8d10-2d3b0bab12e7-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501524522075' status='passed' stop='1501524522232'>
+                    <name>POST /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/elements</name>
+                    <title>POST /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='44f5eafd-2d95-467b-a2fb-630a2f65763b-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='1403009f-58be-4a8e-83d2-090431f7e94a-attachment.json' type='application/json' size='246'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501524522233' status='passed' stop='1501524522284'>
+                    <name>GET /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/element/1/displayed</name>
+                    <title>GET /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/element/1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='6a4ca740-556b-48d9-9a8d-b58f491fb9b3-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1501524522320' stop='1501524523349'>
+    <name>Are elements visible Navigation</name>
+    <title>Are elements visible Navigation</title>
+    <test-cases>
+        <test-case start='1501524522320' status='passed' stop='1501524523348'>
+            <name>should go to teachers page when link clicked</name>
+            <title>should go to teachers page when link clicked</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/danielmcbryde/first-react-app/testing/secondTest.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1501524522321' status='passed' stop='1501524522373'>
+                    <name>POST /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/element</name>
+                    <title>POST /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c32952f7-9de4-4596-977c-774ccb136466-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='5ac9d19d-c638-480a-8ad2-d1124d8a5f60-attachment.json' type='application/json' size='221'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501524522373' status='passed' stop='1501524522781'>
+                    <name>POST /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/element/2/click</name>
+                    <title>POST /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/element/2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='64f8b90b-6ec6-45ed-9d4f-a82fb1899e21-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501524522782' status='passed' stop='1501524523026'>
+                    <name>POST /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/elements</name>
+                    <title>POST /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d393eab3-303f-486d-b0bc-e3656ebc2092-attachment.json' type='application/json' size='94'/>
+                        <attachment title='Response' source='3041adfd-0f86-4486-a826-52141a8bf614-attachment.json' type='application/json' size='246'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501524523027' status='passed' stop='1501524523233'>
+                    <name>GET /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/element/3/displayed</name>
+                    <title>GET /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/element/3/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='1e1abf5c-c1ca-49e7-b633-a5ba31cc9ae3-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501524523235' status='passed' stop='1501524523346'>
+                    <name>GET /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/url</name>
+                    <title>GET /wd/hub/session/6b697d67-720b-427e-874c-c8bfc86dd91c/url</title>
+                    <attachments>
+                        <attachment title='Response' source='d094a9f8-57fe-435b-b055-fb0e2046281d-attachment.json' type='application/json' size='224'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

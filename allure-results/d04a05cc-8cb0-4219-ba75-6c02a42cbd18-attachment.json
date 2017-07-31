@@ -1,0 +1,8 @@
+{
+    "state": "success",
+    "sessionId": "dfad57ed-dd06-4634-8c8e-7e771a2b8dd4",
+    "hCode": 34621107,
+    "value": "http://localhost:3000/teachers",
+    "class": "org.openqa.selenium.remote.Response",
+    "status": 0
+}
