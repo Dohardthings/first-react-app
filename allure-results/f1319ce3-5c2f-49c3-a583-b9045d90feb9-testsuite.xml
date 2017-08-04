@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1501519327767' stop='1501519329317'>
+    <name>Are elements visible Navigation</name>
+    <title>Are elements visible Navigation</title>
+    <test-cases>
+        <test-case start='1501519327767' status='passed' stop='1501519329317'>
+            <name>should go to adwords page when you click on advertisements</name>
+            <title>should go to adwords page when you click on advertisements</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/danielmcbryde/first-react-app/testing/test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1501519327767' status='passed' stop='1501519328521'>
+                    <name>POST /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/url</name>
+                    <title>POST /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/url</title>
+                    <attachments>
+                        <attachment title='Request' source='314dbb27-aa1f-450d-aa30-e44838e60229-attachment.json' type='application/json' size='31'/>
+                        <attachment title='Response' source='48f4b144-4c04-4e29-add1-448eb019430c-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501519328524' status='passed' stop='1501519328702'>
+                    <name>POST /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/elements</name>
+                    <title>POST /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c25091ed-a054-4c45-8938-44b500a9d983-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='c3670ea2-15ff-4855-aaad-260cfac31468-attachment.json' type='application/json' size='244'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501519328704' status='passed' stop='1501519328786'>
+                    <name>GET /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/element/2/displayed</name>
+                    <title>GET /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/element/2/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='7bcf9a52-8643-4aed-9b45-0275ce7bdf8a-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501519328786' status='passed' stop='1501519328873'>
+                    <name>POST /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/element</name>
+                    <title>POST /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fec17d14-0011-4630-a251-92941bbbe9c0-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='5006d9d3-1033-4423-8a4b-a51832cfe080-attachment.json' type='application/json' size='221'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501519328881' status='passed' stop='1501519329106'>
+                    <name>POST /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/element/2/click</name>
+                    <title>POST /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/element/2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='b2d2f218-bb90-4a6e-9536-03b1dec89640-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501519329110' status='passed' stop='1501519329201'>
+                    <name>POST /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/elements</name>
+                    <title>POST /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='6bdca8ee-27dc-4be1-9d09-951952b2ebe2-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='0c599caa-be74-4968-8a37-aba0b432b894-attachment.json' type='application/json' size='246'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501519329201' status='passed' stop='1501519329288'>
+                    <name>GET /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/element/3/displayed</name>
+                    <title>GET /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/element/3/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='46055b66-cb1a-4906-b4d8-979fbe186b4b-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501519329291' status='passed' stop='1501519329315'>
+                    <name>GET /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/url</name>
+                    <title>GET /wd/hub/session/5e9f6430-91e4-49ea-996a-95aa2a68b19a/url</title>
+                    <attachments>
+                        <attachment title='Response' source='9d1ae3d7-abf4-404b-8729-cef665bf28de-attachment.json' type='application/json' size='221'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

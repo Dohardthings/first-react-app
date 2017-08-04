@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": "#root > div > div > form > input[type=\"text\"]:nth-child(1)"
+}

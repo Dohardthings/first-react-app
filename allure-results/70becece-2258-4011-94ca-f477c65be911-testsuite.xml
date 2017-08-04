@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1501191641519' stop='1501191651510'>
+    <name>Are elements visible Navigation</name>
+    <title>Are elements visible Navigation</title>
+    <test-cases>
+        <test-case start='1501191641519' status='broken' stop='1501191651500'>
+            <name>should go to adwords page when you click on advertisements</name>
+            <title>should go to adwords page when you click on advertisements</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/danielmcbryde/first-react-app/testing/test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1501191641526' status='passed' stop='1501191641800'>
+                    <name>POST /wd/hub/session/e4df365de0ae1dbfd59fb4dcff3f58ec/url</name>
+                    <title>POST /wd/hub/session/e4df365de0ae1dbfd59fb4dcff3f58ec/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3cc9720b-12f7-456b-9c19-37cb887a19fa-attachment.json' type='application/json' size='35'/>
+                        <attachment title='Response' source='1079566c-0f33-4bbc-9e33-5d053c9b2799-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501191641804' status='passed' stop='1501191641848'>
+                    <name>POST /wd/hub/session/e4df365de0ae1dbfd59fb4dcff3f58ec/elements</name>
+                    <title>POST /wd/hub/session/e4df365de0ae1dbfd59fb4dcff3f58ec/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='356525fc-342c-44c6-9cfe-3d0d74026ca3-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='fe0f80cb-fa3e-4f15-8d96-6d839acb94f4-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501191641848' status='passed' stop='1501191642202'>
+                    <name>GET /wd/hub/session/e4df365de0ae1dbfd59fb4dcff3f58ec/element/0.14591316564043155-1/displayed</name>
+                    <title>GET /wd/hub/session/e4df365de0ae1dbfd59fb4dcff3f58ec/element/0.14591316564043155-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='38897a83-1bd1-4673-8d17-c22a705db32f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501191642208' status='passed' stop='1501191642312'>
+                    <name>POST /wd/hub/session/e4df365de0ae1dbfd59fb4dcff3f58ec/element</name>
+                    <title>POST /wd/hub/session/e4df365de0ae1dbfd59fb4dcff3f58ec/element</title>
+                    <attachments>
+                        <attachment title='Request' source='157e8297-35fc-42ba-a99a-6e80d0b3ada2-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='f2ffae83-dcbc-49f6-9c12-c979b62e8933-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501191642315' status='passed' stop='1501191648420'>
+                    <name>POST /wd/hub/session/e4df365de0ae1dbfd59fb4dcff3f58ec/element/0.14591316564043155-1/click</name>
+                    <title>POST /wd/hub/session/e4df365de0ae1dbfd59fb4dcff3f58ec/element/0.14591316564043155-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='f109025b-e93e-42d7-9fe9-008c772ea037-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501191648421' status='broken' stop='1501191651500'>
+                    <name>POST /wd/hub/session/e4df365de0ae1dbfd59fb4dcff3f58ec/url</name>
+                    <title>POST /wd/hub/session/e4df365de0ae1dbfd59fb4dcff3f58ec/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2073f811-6afc-4f30-8edc-0e676c3baa67-attachment.json' type='application/json' size='222'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.</message>
+                <stack-trace>Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.
+                    at Timeout.&lt;anonymous> (/Users/danielmcbryde/first-react-app/node_modules/mocha/lib/runnable.js:232:19)
+                    at ontimeout (timers.js:469:11)
+                    at tryOnTimeout (timers.js:304:5)
+                    at Timer.listOnTimeout (timers.js:264:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

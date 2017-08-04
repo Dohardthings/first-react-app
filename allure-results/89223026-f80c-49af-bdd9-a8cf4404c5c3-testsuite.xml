@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1501517795079' stop='1501517805442'>
+    <name>Are elements visible Navigation</name>
+    <title>Are elements visible Navigation</title>
+    <test-cases>
+        <test-case start='1501517795080' status='broken' stop='1501517805014'>
+            <name>should go to adwords page when you click on advertisements</name>
+            <title>should go to adwords page when you click on advertisements</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/danielmcbryde/first-react-app/testing/test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1501517795100' status='passed' stop='1501517795702'>
+                    <name>POST /wd/hub/session/ef2fbdfb-c378-4867-851c-38571ee9bfa9/url</name>
+                    <title>POST /wd/hub/session/ef2fbdfb-c378-4867-851c-38571ee9bfa9/url</title>
+                    <attachments>
+                        <attachment title='Request' source='29900bb3-57e4-4199-b450-8b8044919a1a-attachment.json' type='application/json' size='35'/>
+                        <attachment title='Response' source='2ea38da3-c199-41d6-88f2-c2d44325d4fa-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501517795707' status='passed' stop='1501517795943'>
+                    <name>POST /wd/hub/session/ef2fbdfb-c378-4867-851c-38571ee9bfa9/elements</name>
+                    <title>POST /wd/hub/session/ef2fbdfb-c378-4867-851c-38571ee9bfa9/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='8cbfb761-ae6c-4ac1-9ee7-1c6f853a45ea-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='f2999fd0-1800-4321-9c8d-0ed145d3437f-attachment.json' type='application/json' size='246'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501517795943' status='passed' stop='1501517796671'>
+                    <name>GET /wd/hub/session/ef2fbdfb-c378-4867-851c-38571ee9bfa9/element/2/displayed</name>
+                    <title>GET /wd/hub/session/ef2fbdfb-c378-4867-851c-38571ee9bfa9/element/2/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='1f6da57c-10c5-40c0-b606-c8362a271fa4-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501517796679' status='passed' stop='1501517797042'>
+                    <name>POST /wd/hub/session/ef2fbdfb-c378-4867-851c-38571ee9bfa9/element</name>
+                    <title>POST /wd/hub/session/ef2fbdfb-c378-4867-851c-38571ee9bfa9/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c7864d2e-6816-4c34-9d8a-1ad2dba63e9c-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='79988be5-33ef-46e0-ab29-3276c28d7cef-attachment.json' type='application/json' size='221'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1501517797093' status='broken' stop='1501517805014'>
+                    <name>POST /wd/hub/session/ef2fbdfb-c378-4867-851c-38571ee9bfa9/element/2/click</name>
+                    <title>POST /wd/hub/session/ef2fbdfb-c378-4867-851c-38571ee9bfa9/element/2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.</message>
+                <stack-trace>Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.
+                    at Timeout.&lt;anonymous> (/Users/danielmcbryde/first-react-app/node_modules/mocha/lib/runnable.js:232:19)
+                    at ontimeout (timers.js:469:11)
+                    at tryOnTimeout (timers.js:304:5)
+                    at Timer.listOnTimeout (timers.js:264:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
