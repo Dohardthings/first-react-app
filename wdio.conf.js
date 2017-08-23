@@ -10,9 +10,9 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './testing/test.js',
-        './testing/secondTest.js',
-        './testing/searchTest.js'
+         './testing/test.js',
+         './testing/secondTest.js',
+         './testing/searchTest.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -47,6 +47,8 @@ exports.config = {
         maxInstances: 5,
         //
         browserName: 'chrome'
+        // browserName: 'firefox'
+        // browserName: 'safari'
     }],
     //
     // ===================
@@ -60,7 +62,7 @@ exports.config = {
     sync: true,
     //
     // Level of logging verbosity: silent | verbose | command | data | result | error
-    logLevel: 'verbose',
+    logLevel: 'result',
     //
     // Enables colors for log output.
     coloredLogs: true,
@@ -120,13 +122,15 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: http://webdriver.io/guide/testrunner/reporters.html
-    reporters: ['dot','junit','allure'],
+    reporters: ['dot','spec'],
 
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     mochaOpts: {
-        ui: 'bdd'
+        ui: 'bdd',
+        timeout: 90000,
+
     },
     //
     // =====

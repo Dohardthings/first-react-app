@@ -1,0 +1,8 @@
+{
+    "state": "success",
+    "sessionId": "505446d5-0d93-45f7-94bf-f124d4290133",
+    "hCode": 1065939160,
+    "value": "http://localhost:3000/courses/css",
+    "class": "org.openqa.selenium.remote.Response",
+    "status": 0
+}

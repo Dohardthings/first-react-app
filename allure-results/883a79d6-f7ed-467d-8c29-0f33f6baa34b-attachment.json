@@ -1,0 +1,10 @@
+{
+    "state": "success",
+    "sessionId": "f7847858-717c-489c-a633-8d27c92c2633",
+    "hCode": 1031505056,
+    "value": {
+        "ELEMENT": "6"
+    },
+    "class": "org.openqa.selenium.remote.Response",
+    "status": 0
+}
